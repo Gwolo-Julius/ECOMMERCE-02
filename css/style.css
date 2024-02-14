@@ -528,3 +528,278 @@ ul {
 .flash__sales__timer {
   width: 100%;
 }
+
+.special__items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.counter__section {
+  display: flex;
+  gap: 1rem;
+}
+.special__items__left {
+  padding: 1.8rem;
+  background: var(--primary-black-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem;
+  width: 50%;
+}
+.special__items__left p {
+  color: var(--button1);
+  font-size: 0.8rem;
+}
+
+.special__items__left h2 {
+  color: var(--bg-white);
+  font-size: 3rem;
+}
+
+.timer {
+  width: 62px;
+  height: 62px;
+  background-color: var(--bg-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6rem;
+}
+
+.timer span {
+  font-weight: 100;
+  font-size: 0.7rem;
+}
+
+.special__items__right {
+  background: black;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.special__items__right img {
+  width: 100%;
+}
+
+.special__item__btn {
+  background-color: var(--button1);
+  border-radius: 6px;
+  color: var(--bg-white);
+  padding: 0.9rem 3rem;
+  font-weight: 500;
+  cursor: pointer;
+  align-self: flex-start;
+  font-size: 1.2rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.special__item__btn:hover {
+  background-color: var(--hover-button);
+}
+
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+.card1 {
+  width: 250px;
+}
+
+.btn_grid {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 3rem auto;
+}
+
+/* Feactured Items */
+
+.New__Arrival {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.grid__item__one {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  background-color: var(--primary-black-1);
+  position: relative;
+}
+
+.collection_abs {
+  position: absolute;
+  bottom: 0.4rem;
+  left: 0.4rem;
+  background-color: transparent;
+  width: 100%;
+}
+.grid__item__two {
+  grid-column: 3 / 5;
+  background-color: var(--primary-black-1);
+  display: flex;
+  gap: 1rem;
+}
+
+.women__collection {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 6rem 1rem 1rem;
+}
+
+.women__collection p {
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+.shop_link {
+  margin-left: 0px;
+}
+.image__cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 49%;
+}
+.image__cont img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.women__collection {
+  width: 49%;
+  color: var(--bg-white);
+}
+.grid__item__three {
+  background-color: var(--primary-black-1);
+  position: relative;
+}
+.grid__item__four {
+  background-color: var(--primary-black-1);
+  position: relative;
+}
+
+.perf_spea {
+  height: 50%;
+  width: 90%;
+
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.services {
+  width: 58.9375rem;
+  margin: 3rem auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.service__card {
+  text-align: center;
+}
+
+.service__card p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.service__card img {
+  margin-bottom: 0.8rem;
+}
+
+.top {
+  width: 100%;
+}
+
+.place_item_right {
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+.pos__right {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.top_scroll_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--secondary-gray);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.228);
+  transition: all 0.4s ease;
+}
+.top_scroll_btn:hover {
+  background-color: var(--button2);
+}
+
+.top_scroll_btn:hover img {
+  filter: invert(1);
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  background-color: var(--primary-black-1);
+}
+
+.footer_colums {
+  width: 217px;
+}
+.email__field {
+  border: 2px solid var(--bg-white);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.email__field img {
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.email__field input {
+  padding: 5px 1rem;
+  background-color: transparent;
+  color: var(--bg-white);
+}
+
+.email__field::placeholder {
+  color: var(--bg-white);
+}
+
+.logo__mark {
+  color: var(--bg-white);
+}
+
+.footer__container {
+  padding-block: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer__container ul li a {
+  color: var(--secondary-gray);
+}
+
+.footer__container ul li a:hover {
+  color: #03b4fa;
+}
